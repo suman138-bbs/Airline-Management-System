@@ -11,3 +11,15 @@ Sequelize is ORM for RDBMS and mysql2 is use for connectecting to MySql Server
 - npx sequelize init
 
 - npx sequelize db:create
+
+# Create mode using commad line
+
+```
+ npx sequelize model:generate --name City --attributes name:String
+```
+
+#
+
+```
+npx sequelize db:migrate
+```
